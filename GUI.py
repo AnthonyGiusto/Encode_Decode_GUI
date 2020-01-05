@@ -60,13 +60,14 @@ class EncodeGui:
 	
 
 	def encode_click(self):
-		"""Takes a user input value and encodes it with a predefined month index"""
+		"""Takes a user input value and encodes it with a predefined month index into a code-string"""
 		index=int(self.index.get())
 		number=str(self.plain_txt.get())
 		encoded = Encode.encode(number,index)
 		self.encode_blankentry.configure(text= encoded)
 	
 	def decode_click(self):
+		"""Takes a user input code-string and decodes it with a predefined month index into a number"""
 		index=int(self.index.get())
 		code=str(self.code_entry.get())
 		decoded = Decode.decode(code,index)
