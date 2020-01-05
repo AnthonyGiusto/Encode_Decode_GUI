@@ -2,7 +2,6 @@ class Encode:
 
 	def __init__(self):
 		"""initializes the encode attributes."""
-		self = self
 
 	def encode(number,month):
 		"""Takes a user input value and encodes it with a predefined month index"""
