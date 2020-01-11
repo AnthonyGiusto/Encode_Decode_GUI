@@ -8,7 +8,7 @@ code index in order to encode the number into a crypted string.  It also
 provides the option to decode the code-string back into a number.
 """
 
-from encoder_gui import EncodeGui
+from coder_gui import EncodeGui
 import tkinter as tk
 
 
@@ -18,4 +18,4 @@ def main():
     window.mainloop()
 
 
-main()s
+main()

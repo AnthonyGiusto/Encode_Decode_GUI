@@ -1,6 +1,6 @@
 import tkinter as tk
-from encode import encode
-from decode import decode
+from encode_gui import encode
+from decode_gui import decode
 
 
 class EncodeGui:
